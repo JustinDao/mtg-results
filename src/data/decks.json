@@ -2,10 +2,42 @@
   {
     "name": "Bant Control",
     "cards": [
-      {
-        "name": "uro, titan of nature's wrath",
-        "count": 4
-      }
+      { "count": 2, "name": "Jace, the Mind Sculptor" },
+      { "count": 1, "name": "Teferi, Hero of Dominaria" },
+      { "count": 2, "name": "Teferi, Time Raveler" },
+      { "count": 4, "name": "Ice-Fang Coatl" },
+      { "count": 2, "name": "Snapcaster Mage" },
+      { "count": 3, "name": "Uro, Titan of Nature's Wrath" },
+      { "count": 2, "name": "Supreme Verdict" },
+      { "count": 2, "name": "Archmage's Charm" },
+      { "count": 2, "name": "Cryptic Command" },
+      { "count": 3, "name": "Force of Negation" },
+      { "count": 2, "name": "Mana Leak" },
+      { "count": 4, "name": "Path to Exile" },
+      { "count": 2, "name": "Spell Snare" },
+      { "count": 4, "name": "Arcum's Astrolabe" },
+      { "count": 1, "name": "Breeding Pool" },
+      { "count": 4, "name": "Field of Ruin" },
+      { "count": 4, "name": "Flooded Strand" },
+      { "count": 1, "name": "Hallowed Fountain" },
+      { "count": 4, "name": "Misty Rainforest" },
+      { "count": 2, "name": "Mystic Sanctuary" },
+      { "count": 1, "name": "Snow-Covered Forest" },
+      { "count": 5, "name": "Snow-Covered Island" },
+      { "count": 2, "name": "Snow-Covered Plains" },
+      { "count": 1, "name": "Temple Garden" }
+    ],
+    "sideboard": [
+      { "count": 2, "name": "Aether Gust" },
+      { "count": 1, "name": "Ashiok, Dream Render" },
+      { "count": 2, "name": "Celestial Purge" },
+      { "count": 1, "name": "Disdainful Stroke" },
+      { "count": 1, "name": "Dovin's Veto" },
+      { "count": 1, "name": "Engineered Explosives" },
+      { "count": 1, "name": "Mystical Dispute" },
+      { "count": 2, "name": "Soul-Guide Lantern" },
+      { "count": 2, "name": "Timely Reinforcements" },
+      { "count": 2, "name": "Veil of Summer" }
     ]
   }
 ]
