@@ -89,6 +89,12 @@ export function getArchetype(deckInfo: DeckInfo): string {
   console.log(deckMatchMap);
 
   const maxPoints = maxBy([...deckMatchMap.entries()], (d) => d[1][0])![1][0];
+
+  // If nothing matches, return Unknown
+  if (maxPoints === 0) {
+    return "Unknown";
+  }
+
   const decksWithMaxPonts = filter(
     [...deckMatchMap.entries()],
     (d) => d[1][0] === maxPoints,
