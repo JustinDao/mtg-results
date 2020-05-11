@@ -1,0 +1,122 @@
+[
+  {
+    "mainboard": [
+      "Ice-Fang Coatl",
+      "Uro, Titan of Nature's Wrath",
+      "Path to Exile",
+      "Jace, the Mind Sculptor"
+    ],
+    "sideboard": ["~Yorion, Sky Nomad"],
+    "name": "Bant Control"
+  },
+  {
+    "mainboard": [
+      "Ice-Fang Coatl",
+      "Uro, Titan of Nature's Wrath",
+      "Path to Exile",
+      "Jace, the Mind Sculptor"
+    ],
+    "sideboard": ["!Yorion, Sky Nomad"],
+    "name": "Bant Control (Y)"
+  },
+  {
+    "mainboard": [
+      "Ice-Fang Coatl",
+      "Uro, Titan of Nature's Wrath",
+      "Path to Exile",
+      "Jace, the Mind Sculptor",
+      "Lightning Helix"
+    ],
+    "sideboard": ["!Yorion, Sky Nomad"],
+    "name": "4C Control (Y)"
+  },
+  {
+    "mainboard": ["Goblin Guide", "Boros Charm"],
+    "sideboard": ["~Lurrus of the Dream-Den"],
+    "name": "Burn"
+  },
+  {
+    "mainboard": ["Goblin Guide", "Boros Charm"],
+    "sideboard": ["!Lurrus of the Dream-Den"],
+    "name": "Burn (L)"
+  },
+  {
+    "mainboard": ["Chalice of the Void", "Reality Smasher", "Urza's Tower"],
+    "sideboard": [],
+    "name": "Eldrazi Tron"
+  },
+  {
+    "mainboard": ["Kolaghan's Command", "Cryptic Command", "Fatal Push"],
+    "sideboard": ["!Lurrus of the Dream-Den"],
+    "name": "Grixis Control (L)"
+  },
+  {
+    "mainboard": ["Soul-Scar Mage", "Tarmogoyf", "Unearth"],
+    "sideboard": ["!Lurrus of the Dream-Den"],
+    "name": "Jund Prowess (L)"
+  },
+  {
+    "mainboard": ["Soul-Scar Mage", "Path to Exile"],
+    "sideboard": ["!Lurrus of the Dream-Den"],
+    "name": "Rw Prowess (L)"
+  },
+  {
+    "mainboard": [
+      "Sylvan Scrying",
+      "Expedition Map",
+      "Urza's Tower",
+      "Karn Liberated"
+    ],
+    "sideboard": [],
+    "name": "G Tron"
+  },
+  {
+    "mainboard": [
+      "Urza, Lord High Artificer",
+      "Uro, Titan of Nature's Wrath",
+      "Restoration Angel",
+      "Galvanic Blast"
+    ],
+    "sideboard": ["!Yorion, Sky Nomad"],
+    "name": "4C Urza (Y)"
+  },
+  {
+    "mainboard": ["Niv-Mizzet Reborn"],
+    "sideboard": ["~Yorion, Sky Nomad"],
+    "name": "5C Niv"
+  },
+  {
+    "mainboard": ["Cryptic Command", "Fatal Push", "Drown in the Loch"],
+    "sideboard": ["!Lurrus of the Dream-Den"],
+    "name": "UB Control (L)"
+  },
+  {
+    "mainboard": [
+      "Chord of Calling",
+      "Restoration Angel",
+      "Eldritch Evolution"
+    ],
+    "sideboard": ["!Yorion, Sky Nomad"],
+    "name": "4C Chord (Y)"
+  },
+  {
+    "mainboard": [
+      "!Death's Shadow",
+      "Snapcaster Mage",
+      "Thoughtseize",
+      "Temur Battle Rage"
+    ],
+    "sideboard": ["!Lurrus of the Dream-Den"],
+    "name": "Grixis Death's Shadow (L)"
+  },
+  {
+    "mainboard": [
+      "!Death's Shadow",
+      "Snapcaster Mage",
+      "Thoughtseize",
+      "Temur Battle Rage"
+    ],
+    "sideboard": ["~Lurrus of the Dream-Den"],
+    "name": "Grixis Death's Shadow"
+  }
+]

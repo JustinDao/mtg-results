@@ -1,7 +1,7 @@
 [
   {
     "name": "Bant Control",
-    "cards": [
+    "mainboard": [
       { "count": 2, "name": "Jace, the Mind Sculptor" },
       { "count": 1, "name": "Teferi, Hero of Dominaria" },
       { "count": 2, "name": "Teferi, Time Raveler" },
@@ -38,6 +38,83 @@
       { "count": 2, "name": "Soul-Guide Lantern" },
       { "count": 2, "name": "Timely Reinforcements" },
       { "count": 2, "name": "Veil of Summer" }
+    ]
+  },
+  {
+    "name": "Burn (L)",
+    "mainboard": [
+      { "count": 4, "name": "Eidolon of the Great Revel" },
+      { "count": 4, "name": "Goblin Guide" },
+      { "count": 4, "name": "Monastery Swiftspear" },
+      { "count": 4, "name": "Lava Spike" },
+      { "count": 4, "name": "Rift Bolt" },
+      { "count": 4, "name": "Boros Charm" },
+      { "count": 4, "name": "Lightning Bolt" },
+      { "count": 4, "name": "Lightning Helix" },
+      { "count": 4, "name": "Searing Blaze" },
+      { "count": 3, "name": "Mishra's Bauble" },
+      { "count": 1, "name": "Seal of Fire" },
+      { "count": 4, "name": "Bloodstained Mire" },
+      { "count": 4, "name": "Inspiring Vantage" },
+      { "count": 2, "name": "Mountain" },
+      { "count": 3, "name": "Sacred Foundry" },
+      { "count": 4, "name": "Sunbaked Canyon" },
+      { "count": 3, "name": "Wooded Foothills" }
+    ],
+    "sideboard": [
+      { "count": 2, "name": "Chained to the Rocks" },
+      { "count": 3, "name": "Kor Firewalker" },
+      { "count": 1, "name": "Lurrus of the Dream-Den" },
+      { "count": 2, "name": "Rest in Peace" },
+      { "count": 4, "name": "Skullcrack" },
+      { "count": 3, "name": "Smash to Smithereens" }
+    ]
+  },
+  {
+    "name": "4C Yorion Control",
+    "mainboard": [
+      { "count": 2, "name": "Jace, the Mind Sculptor" },
+      { "count": 2, "name": "Teferi, Hero of Dominaria" },
+      { "count": 3, "name": "Teferi, Time Raveler" },
+      { "count": 4, "name": "Ice-Fang Coatl" },
+      { "count": 3, "name": "Snapcaster Mage" },
+      { "count": 3, "name": "Uro, Titan of Nature's Wrath" },
+      { "count": 2, "name": "Supreme Verdict" },
+      { "count": 3, "name": "Archmage's Charm" },
+      { "count": 3, "name": "Cryptic Command" },
+      { "count": 1, "name": "Deprive" },
+      { "count": 3, "name": "Force of Negation" },
+      { "count": 2, "name": "Lightning Bolt" },
+      { "count": 4, "name": "Lightning Helix" },
+      { "count": 2, "name": "Mana Leak" },
+      { "count": 4, "name": "Path to Exile" },
+      { "count": 4, "name": "Arcum's Astrolabe" },
+      { "count": 3, "name": "Abundant Growth" },
+      { "count": 1, "name": "Breeding Pool" },
+      { "count": 2, "name": "Field of Ruin" },
+      { "count": 4, "name": "Flooded Strand" },
+      { "count": 1, "name": "Hallowed Fountain" },
+      { "count": 4, "name": "Misty Rainforest" },
+      { "count": 2, "name": "Mystic Sanctuary" },
+      { "count": 4, "name": "Prismatic Vista" },
+      { "count": 1, "name": "Raugrin Triome" },
+      { "count": 3, "name": "Snow-Covered Forest" },
+      { "count": 6, "name": "Snow-Covered Island" },
+      { "count": 1, "name": "Snow-Covered Mountain" },
+      { "count": 2, "name": "Snow-Covered Plains" },
+      { "count": 1, "name": "Steam Vents" }
+    ],
+    "sideboard": [
+      { "count": 1, "name": "Aether Gust" },
+      { "count": 2, "name": "Ashiok, Dream Render" },
+      { "count": 2, "name": "Blood Moon" },
+      { "count": 1, "name": "Celestial Purge" },
+      { "count": 1, "name": "Disdainful Stroke" },
+      { "count": 1, "name": "Mystical Dispute" },
+      { "count": 2, "name": "Soul-Guide Lantern" },
+      { "count": 2, "name": "Timely Reinforcements" },
+      { "count": 2, "name": "Veil of Summer" },
+      { "count": 1, "name": "Yorion, Sky Nomad" }
     ]
   }
 ]

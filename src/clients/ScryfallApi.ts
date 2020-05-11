@@ -24,6 +24,13 @@ export type ScryfallCard = {
 export function getMatchingCardsAsync(
   cardName: string,
 ): Promise<ScryfallCard[]> {
+  // Get Cards from cache if available
+  if (localStorage.getItem(cardName) !== null) {
+    return Promise.resolve(
+      JSON.parse(localStorage.getItem(cardName)!) as ScryfallCard[],
+    );
+  }
+
   return fetch(
     `${scryfallEndpoint}/cards/search?q=${encodeURIComponent(
       cardName,
@@ -31,13 +38,15 @@ export function getMatchingCardsAsync(
   )
     .then((response) => {
       if (response.status === 404) {
-        throw new Error("404");
+        return new Response("[]");
       }
       return response;
     })
     .then((result) => result.json())
     .then((data) => {
       const list = data as ScryfallList;
+      // Cache data
+      localStorage.setItem(cardName, JSON.stringify(list.data));
       return list.data;
     })
     .catch(() => {
