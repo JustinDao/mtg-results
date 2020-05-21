@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./views/Home";
-import Modern from "./views/Modern";
+import { Home } from "./views/Home";
+import { Modern } from "./views/Modern";
+import { Scraper } from "./views/Scraper";
 import Layout from "./layout/Layout";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import "./App.css";
@@ -18,6 +19,9 @@ function App() {
             </Route>
             <Route path="/modern">
               <Modern />
+            </Route>
+            <Route path="/scraper">
+              <Scraper />
             </Route>
           </div>
         </Router>

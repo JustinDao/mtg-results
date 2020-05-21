@@ -15,7 +15,7 @@ import {
   Grid,
 } from "@material-ui/core";
 
-export default function Modern() {
+export function Modern() {
   const [card, setCard] = React.useState<ScryfallCard>();
   const [decks, setDecks] = React.useState<Map<string, DeckInfo>>(
     new Map<string, DeckInfo>(),

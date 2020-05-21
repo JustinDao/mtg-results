@@ -14,6 +14,10 @@ const drawerWidth = 240;
 
 const drawerLinks = [
   {
+    title: "Scraper",
+    href: "/scraper",
+  },
+  {
     title: "Modern",
     href: "/modern",
   },
@@ -99,7 +103,7 @@ export default function PermanentDrawerLeft(props: any) {
         </div>
         <Divider />
         <List>
-          {drawerLinks.map((link, index) => (
+          {drawerLinks.map((link) => (
             <ListItem button component="a" key={link.title} href={link.href}>
               <ListItemText>
                 <b>{link.title}</b>
