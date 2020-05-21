@@ -16,7 +16,6 @@
     "@types/react-router-dom": "^5.1.5",
     "fast-levenshtein": "^2.0.6",
     "lodash": "^4.17.15",
-    "node-html-parser": "^1.2.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
