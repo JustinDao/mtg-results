@@ -24,7 +24,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "fast-levenshtein": "^2.0.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "node-html-parser": "^1.2.16",
     "tslib": "^2.0.0"
   }
