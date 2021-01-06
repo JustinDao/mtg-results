@@ -20,7 +20,7 @@
   "dependencies": {
     "@types/fast-levenshtein": "^0.0.1",
     "@types/lodash": "^4.14.152",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "fast-levenshtein": "^2.0.6",
